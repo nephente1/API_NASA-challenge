@@ -7,14 +7,14 @@ $(document).ready(function(){
         e.preventDefault();
         
       var target = $("#pos1");
-      $('html').animate({scrollTop: $(target).offset().top}, 1000);
+      $('html, body').animate({scrollTop: $(target).offset().top}, 1000);
   });
     //scroll to top
     $("#scrollTop").on('click', function(e){
         e.preventDefault();
         
       var target = $("#top");
-      $('html').animate({scrollTop: $(target).offset().top}, 1000);
+      $('html, body').animate({scrollTop: $(target).offset().top}, 1000);
   });
   
     //zmiana diva pasek po scrollowaniu
