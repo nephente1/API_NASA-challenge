@@ -1,20 +1,20 @@
 //api vqpH3QwgVVGGcY9RTYorPjP9R5cC9nZKniaSbhtT
 
-$(document).ready(function(){
+document.addEventListener("DOMContentLoaded", function() {
     
     //scroll down
     $("#scroll").on('click', function(e){
         e.preventDefault();
         
       var target = $("#pos1");
-      $('html,body').animate({scrollTop: $(target).offset().top}, 1000);
+      $('html, body').animate({scrollTop: $(target).offset().top}, 1000);
   });
     //scroll to top
     $("#scrollTop").on('click', function(e){
         e.preventDefault();
         
       var target = $("#top");
-      $('html,body').animate({scrollTop: $(target).offset().top}, 1000);
+      $('html, body').animate({scrollTop: $(target).offset().top}, 1000);
   });
   
     //zmiana diva pasek po scrollowaniu
